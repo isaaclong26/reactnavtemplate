@@ -22,13 +22,13 @@ function App() {
   const kid1:child = {
       component: Test,
       name: "test",
-      logo: "test",
+      logo: "Voting",
       
 
   }
   return (
     <div className="App">
-      <Nav theme={theme} children={[kid1, kid1]}></Nav>
+      <Nav theme={theme} children={[kid1, kid1, kid1]}></Nav>
     </div>
   );
 }
